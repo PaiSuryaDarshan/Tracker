@@ -2,8 +2,7 @@ import P1_Append_Times_to_sheet as P1
 
 P1.add_times()
 
-# * #####
-# Notes:
+# * Notes:
 
 #* add_times()
     
