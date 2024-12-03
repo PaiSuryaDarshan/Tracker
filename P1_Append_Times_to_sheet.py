@@ -48,7 +48,7 @@ def add_times():
         date = datetime.now().strftime('%d/%m/%y')
         time = datetime.now().strftime('%H:%M')
 
-        print("Signing in", date, time)
+        print("\n Signing in", date, time)
         
         sheet.append([date, "", time, "", ""])
 
@@ -66,7 +66,7 @@ def add_times():
         date = datetime.now().strftime('%d/%m/%y')
         time = datetime.now().strftime('%H:%M')
 
-        print("Signing out", date, time)
+        print("\n Signing out", date, time)
         
         Last_sign_in_cell = "C" + str((int(toi.ref[-1]))-1)
         Last_empty_sign_out_cell = "D" + str((int(toi.ref[-1]))-1)
